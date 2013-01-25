@@ -222,7 +222,7 @@ Sets a single attribute, saving the instance.
 Updates a record with the given attributes, saving the record. 
 
     user = User.create()
-    user.updateAttributes(name: "Sir Galahad the Pure")
+    user.updateAttributes({name: "Sir Galahad the Pure"})
 
 ### `destroy()`
 
